@@ -3,3 +3,76 @@
     padding: 20px 8px 20px 8px;
 
 }
+
+.display{   
+  display:inline-block;
+  text-align: center;
+  width: 20%;
+
+}
+
+.centrado{  
+    text-align: center;
+} 
+
+.display2{   
+    display:inline-block;
+    text-align: right;
+    width: 50%;
+  
+  }
+
+  .centrado2{ 
+      display: inline-block;
+      text-align: right;
+      width: 40%;
+      height: 330px;
+} 
+
+.columna { 
+    display: inline-block;
+    vertical-align: bottom;
+}  
+
+.div1 { 
+    float: left;
+    width: 50%;
+}  
+
+.div2 { 
+    float: left;
+    width: 50%;
+} 
+
+.columna2 { 
+    display: inline-block;
+    vertical-align: bottom;
+    width: calc(50% - 50px);
+    border: 5px dotted pink;
+}  
+ 
+.img1 { 
+    float: left;
+    width: 40px;
+    height: 40px;
+} 
+
+.clearfix { 
+    clear: both;
+} 
+
+.border-circulo { 
+    height: 150px;
+    width: 150px;
+    background-color: burlywood;
+    border: 10px solid red;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+
+} 
+    /* 
+    .verticalaling{ 
+        vertical-align: text-top;
+    }  */
