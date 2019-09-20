@@ -82,6 +82,10 @@
     font-weight: 500;
 
 } 
+
+* { 
+    font-family: 'Open Sans', sans-serif;
+} 
     /* 
     .verticalaling{ 
         vertical-align: text-top;
