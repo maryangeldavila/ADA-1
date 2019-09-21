@@ -1,0 +1,64 @@
+* { 
+    font-family: 'Open Sans', sans-serif;
+} 
+body{ 
+    background-color: #76b852;
+} 
+
+.div1 { 
+
+    width: 360px;
+    box-sizing: border-box;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0, .2); /*Para agregar SOMBRA PARECIDA AL COLOR DE FONDO agregar 
+    transparencia (ultimo 0 del parentesis. Valor del 0 -mas transparente- al 1-menos transparente-)*/
+    /* ERROR: heigth: 200px;*/
+
+} 
+.input{ 
+   display:block;
+   /*box-sizing: border-box;*/
+   height: 46px;
+   width: 255px;
+   padding-left: 15px;
+   background-color: #f2f2f2;
+   border: none;/*Por default le agrega borde, esto es para sacarselo*/
+
+} 
+.input2{ 
+    display:block;
+    /*box-sizing: border-box; */
+    height: 46px;
+    width: 270px;
+    padding-left: 15px;
+    background-color: #4caf50;
+    border: none; /*Por default le agrega borde, esto es para sacarselo*/
+    color: white;
+ 
+ } 
+
+.formulario{ 
+    margin: auto;
+   /* innecesario: width: 255;*/
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    /* ERROR: heigth: 212px;*/
+
+} 
+
+.centrado{ 
+    display: block;
+    text-align: center; /*CON ESTE SE CENTRO DE MANERA HORIZONTAL (1)*/
+    margin: auto; /*CON ESTE SE CENTRO DE MANERA HORIZONTAL(2)*/
+    width: 50%;
+    padding: 10px;
+    padding-top: 150px; /*CON ESTE SE CENTRO DE MANERA VERTICAL*/
+ 
+ } 
+ .margenFormulario{ 
+    margin-top: 15px;
+    margin-bottom: 15px;
+ } 
